@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Change
+{
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+			double bill, tip, party;
+			System.out.print("Enter the amount of your bill: ");
+			bill = input.nextDouble();
+			System.out.println("Your tip should be " + tip + ".");
+			tip = tipCalc(bill);
+			System.out.println("Enter how many people are in your group: ");
+			group = input.nextDouble();
+			System.out.println("Your split check should be: ")
+		}	
